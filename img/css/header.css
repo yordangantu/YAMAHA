@@ -1,0 +1,9 @@
+.navbar .nav-link {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--color-texto);
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-primario);
+}

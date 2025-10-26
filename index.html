@@ -1,130 +1,196 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yamaha fake</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EcoMarket - Productos Orgánicos</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">YAMAHA</div>
-        <div class="search">
-            <input type="text" placeholder="Buscar...">
+
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo de EcoMarket">
+            </a>
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav class="menu">
-        <button>MOTOS</button>
-        <button>CUATRIMOTOS</button>
-        <button>FUERA DE BORDA</button>
-        <button>MOTOS ACUÁTICAS</button>
-        <button>YAMALUBE</button>
-        <button>PRUEBA DE MANEJO</button>
-    </nav>
+    <main>
+        <section id="hero">
+            <h2>Bienvenido a EcoMarket</h2>
+            <p>Tu tienda de productos orgánicos frescos y de calidad.</p>
+            <a href="productos.html" class="cta-button">Ver Productos</a>
+        </section>
 
-    <section class="banner">
-        <img src="img/R3-bloque01-imagen01-v01-yamaha-desktop.png.avif" alt="" width="1905" height="1100">
-    </section>
-
-
-    <section class="modelos">
-     <h2>ELIJE TU YAMAHA</h2>
-        <div class="motos-grid">
-            <div class="moto"><img src="img/YAMAHA_YBRZ-PORTADA-Galgo_Colombia A.png" alt="" width="250" height="250"></div>
-            <div class="moto"><img src="img/images yamaha B.jpg" alt="" width="250" height="250"></div>
-            <div class="moto"><img src="img/2023-yamaha-mt-03-team-yamaha-blue-3-600x486.jpg" alt="" width="250" height="250"></div>
-            <div class="moto"><img src="img/libero-gris6.png" alt="" width="250" height="250"></div>
-        </div>
-        <h4>Hay uno para cada actitud</h4>
-    </section>
-
- 
-    <section class="servicios">
-    
-    <div class="card"> 
-        <div class="contenedor-imagen">
-            <img src="img/trinca-image-yamaha.avif" alt="Mecánico trabajando">
+        <section id="productos-destacados">
+            <h3>Productos Destacados</h3>
             
-            <div class="contenido-centrado">
-                <h3>PROGRAMA TU SERVICIO</h3>
-                <button class="boton-vermas">VER MAS +</button>
-            </div>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="contenedor-imagen">
-            <img src="img/trinca-image-2 yamaha.avif" alt="Concesionario Yamaha">
+            <div class="product-grid">
             
-            <div class="contenido-centrado">
-                <h3>UBICA TU CONCESIONARIO</h3>
-                <button class="boton-vermas">VER MAS +</button>
-            </div>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="contenedor-imagen">
-            <img src="img/trinca-image-3 yamaha.avif" alt="Engranajes y repuestos">
-            
-            <div class="contenido-centrado">
-                <h3>CONSIGUE TUS REPUESTOS</h3>
-                <button class="boton-vermas">VER MAS +</button>
-            </div>
-        </div>
-    </div>
-    
-</section>
-<section>
-    <div class="news"> 
-        
-        <img src="img/yamaha-tenere-700-2023_0006_2022-Yamaha-XTZ700-EU-Icon_Blue-Action-002-03.jpg" alt="..." width="1200" height="500">
-        
-        <div class="NEWS">
-            <h2>YAMAHA NEWS</h2>
-            <p>Entérate de las novedades más importantes de Yamaha.</p>
-            <button class="boton-vermas">VER MAS</button>
-        </div>
-        
-    </div>
-</section> <section class="Formulario">
-    <form id="formulario-contacto"> 
-        <input type="text" id="nombre" placeholder="Nombre">
-        <input type="text" id="numero" placeholder="Número">
-        <input type="email" id="email" placeholder="Email">
-        <button type="button" id="boton-enviar">Enviar</button> 
-    </form>
-</section>
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto-01.jpg" alt="Producto 1">
+                    </div>
+                    <h4>Kiwi (Importado)</h4>
+                    <p>Precio: S/ 12.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+                
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto2.jpg" alt="Producto 2">
+                    </div>
+                    <h4>Lúcuma</h4>
+                    <p>Precio: S/ 4.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+                
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto3.jpg" alt="Producto 3">
+                    </div>
+                    <h4>Granada Roja</h4>
+                    <p>Precio: S/ 7.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
 
-    <footer class="footer">
-        <a href="#">nuevas historias</a>
-        <a href="#">políticas de privacidad</a>
-        <a href="#">contacto</a>
-        <a href="#">canal de denuncia</a>
-        <a href="#">términos y condiciones</a>
-        <a href="#">legal</a>
-        <a href="#">cambios y devolución</a>
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto4.jpg" alt="Producto 4">
+                    </div>
+                    <h4>Uva Verde (sin pepa)</h4>
+                    <p>Precio: S/ 15.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto5.jpg" alt="Producto 5">
+                    </div>
+                    <h4>Fresa</h4>
+                    <p>Precio: S/ 11.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto6.jpg" alt="Producto 6">
+                    </div>
+                    <h4>Lechuga (americana)</h4>
+                    <p>Precio: S/ 2.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto7.jpg" alt="Producto 7">
+                    </div>
+                    <h4>Granadilla</h4>
+                    <p>Precio: S/ 7.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto8.jpg" alt="Producto 8">
+                    </div>
+                    <h4>Papaya</h4>
+                    <p>Precio: S/ 5.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto9.jpg" alt="Producto 9">
+                    </div>
+                    <h4>Mandarina</h4>
+                    <p>Precio: S/ 4.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto10.jpg" alt="Producto 10">
+                    </div>
+                    <h4>Zanahoria</h4>
+                    <p>Precio: S/ 4.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto11.jpg" alt="Producto 11">
+                    </div>
+                    <h4>Choclo (Serrano)</h4>
+                    <p>Precio: S/ 5.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto12.jpg" alt="Producto 12">
+                    </div>
+                    <h4>Papa (Blanca)</h4>
+                    <p>Precio: S/ 3.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto13.jpg" alt="Producto 13">
+                    </div>
+                    <h4>Plátano (de Seda)</h4>
+                    <p>Precio: S/ 4.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+
+                <article class="producto-card">
+                    <div class="img-container">
+                        <img src="img/producto14.jpg" alt="Producto 14">
+                    </div>
+                    <h4>Manzana (Delicia)</h4>
+                    <p>Precio: S/ 5.00</p>
+                    <a href="producto-detalle.html" class="btn-ver-mas">Comprar</a>
+                </article>
+            
+            </div>
+            
+        </section>
+
+        <section id="cta-registro">
+            <h3>Únete a nuestra comunidad</h3>
+            <p>Regístrate y obtén un 10% de descuento en tu primera compra.</p>
+            
+            <form id="registro-form">
+                <input type="text" placeholder="Ingresa tu nombre" required>
+                <input type="tel" placeholder="Ingresa tu teléfono (opcional)">
+                <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                <button type="submit" class="cta-button">Suscribirme</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="enlaces-footer">
+            <ul>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Políticas de Privacidad</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 EcoMarket. Todos los derechos reservados.</p>
     </footer>
-
-    <div id="chat-widget">
-        <div class="chat-header">
-            <p>Soporte Yamaha en línea</p>
-        </div>
-        <div class="chat-body">
-            <p>¡Bienvenido! ¿Necesitas ayuda con modelos, repuestos o servicio?</p>
-            <div class="chat-input">
-                <input type="text" placeholder="Escribe tu mensaje...">
-            </div>
-        </div>
-    </div>
-
-    <button id="chat-toggle-button">
-        💬
-    </button>
-
-    <script src="script.js"></script> 
-
+    <script src="js/main.js"></script>
 </body>
 </html>

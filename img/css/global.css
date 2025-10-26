@@ -1,0 +1,41 @@
+:root {
+    --color-primario: #2a9d8f;
+    --color-secundario: #e9c46a;
+    --color-acento: #f4a261;
+    --color-texto: #264653;
+    --color-fondo: #f8f9fa;
+    --color-blanco: #ffffff;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+a {
+    color: var(--color-primario);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-texto);
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
